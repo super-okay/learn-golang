@@ -73,6 +73,7 @@ func booleans() {
 	// uint8, uint16, uint32
 	// float32, float64
 	// complex64, complex128
+	// floating point nums are approximates, not exact decimals
 }
 
 func math() {
@@ -127,6 +128,7 @@ func temp() {
 	ds.Maps()
 	ds.Structs()
 	logic.IfStatement()
+	logic.SwitchStatement()
 }
 
 func main() {
@@ -140,5 +142,7 @@ func main() {
 	// ds.Arrays()
 	// ds.Maps()
 	// ds.Structs()
-	logic.IfStatement()
+	// logic.IfStatement()
+	// logic.SwitchStatement()
+	logic.ForLoop()
 }

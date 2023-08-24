@@ -12,7 +12,7 @@ import (
 	"strconv" // converting int to string
 
 	// package imports are relative to $GOPATH/src
-	ds "../../Documents/learn-go/data-structures"
+	ds "../../Documents/learn-go/dataStructures"
 	logic "../../Documents/learn-go/logic"
 )
 
@@ -144,5 +144,6 @@ func main() {
 	// ds.Structs()
 	// logic.IfStatement()
 	// logic.SwitchStatement()
-	logic.ForLoop()
+	// logic.ForLoop()
+	ds.CreateNewCar()
 }
